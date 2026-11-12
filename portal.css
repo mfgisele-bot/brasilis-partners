@@ -1,0 +1,7 @@
+html { scroll-behavior: smooth; }
+main > section[id], footer[id] { scroll-margin-top: 5rem; }
+.mbr-parallax-background { background-position: center; background-size: cover; }
+#menu1-8v .hamburger { display: block; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+}
